@@ -1,5 +1,5 @@
 {
-  "name": "webui",
+  "name": "jochdev-nuxt-webui",
   "type": "module",
   "version": "0.0.1",
   "main": "./nuxt.config.ts",
