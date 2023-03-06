@@ -7,6 +7,6 @@ const {message} = useHello()
 <template>
     <div>
         <h1>{{ message }}</h1>
-        <Button>Test!</Button>
+        <Buttonjc>Test!</Buttonjc>
     </div>
 </template>
