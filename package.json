@@ -1,7 +1,7 @@
 {
   "name": "jochdev-nuxt-webui",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "main": "./nuxt.config.ts",
   "scripts": {
     "dev": "nuxi prepare & nuxi dev .playground",
@@ -10,7 +10,6 @@
     "preview": "nuxi preview .playground"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "nuxt": "^3.0.0"
   },
   "dependencies": {
