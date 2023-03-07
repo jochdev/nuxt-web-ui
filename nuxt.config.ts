@@ -7,6 +7,6 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss'
   ],
   css: [
-    resolve('@/assets/fonts/rubik.css')
+    resolve('./src/assets/fonts/rubik.css')
   ]
 })
