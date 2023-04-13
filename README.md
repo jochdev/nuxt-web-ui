@@ -38,8 +38,8 @@ Then add the dependency to their `extends` in `nuxt.config`:
 
 ```ts
 defineNuxtConfig({
-  extends: 'your-theme'
-})
+  extends: "your-theme",
+});
 ```
 
 ## Development Server
@@ -71,3 +71,20 @@ pnpm preview
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
+
+## Versiones
+
+0.1.0 - _Add @nuxtjs/date-fns_
+
+Se agrego el componente @nuxtjs/date-fns el cuál sirve para proporcionar una interfaz fácil de usar para la biblioteca date-fns en proyectos Nuxt.js 3. date-fns es una biblioteca de fechas y horas para JavaScript que permite formatear fechas, calcular intervalos de tiempo, manipular fechas y horas, y mucho más.
+
+Usar a través de el composable useFormatDates.ts
+
+```bash
+const { clienteDesde } = useFormatDates();
+
+const fecha = new Date()
+
+
+ <p>{{ clienteDesde(fecha) }}</p>
+```
